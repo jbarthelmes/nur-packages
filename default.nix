@@ -14,8 +14,7 @@
   modules = import ./modules; # NixOS modules
   overlays = import ./overlays; # nixpkgs overlays
 
-  poloniexlendingbot = pkgs.callPackage ./pkgs/poloniexlendingbot { };
-  # some-qt5-package = pkgs.libsForQt5.callPackage ./pkgs/some-qt5-package { };
-  # ...
+  poloniexlendingbot = pkgs.callPackage pkgs/poloniexlendingbot { };
+  papermc = pkgs.callPackage pkgs/papermc { };
 }
 

@@ -4,5 +4,4 @@
 
 ![Build and populate cache](https://github.com/jbarthelmes/nur-packages/workflows/Build%20and%20populate%20cache/badge.svg)
 [![Build Status](https://travis-ci.com/jbarthelmes/nur-packages.svg?branch=master)](https://travis-ci.com/jbarthelmes/nur-packages)
-[![Cachix Cache](https://img.shields.io/badge/cachix-<YOUR_CACHIX_CACHE_NAME>-blue.svg)](https://<YOUR_CACHIX_CACHE_NAME>.cachix.org)
-
+[![Cachix Cache](https://img.shields.io/badge/cachix-jbarthelmes-blue.svg)](https://jbarthelmes.cachix.org)

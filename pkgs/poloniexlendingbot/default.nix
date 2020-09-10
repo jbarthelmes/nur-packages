@@ -11,5 +11,5 @@ let
     sha256 = "191g29q30q7zz3i5cpy42pa3nxs7pxxn48k0q60svhikmy2axhp3";
   };
 
-in
-writeShellScriptBin "poloniexlendingbot" "${python}/bin/python ${src}/lendingbot.py $*"
+in writeShellScriptBin "poloniexlendingbot"
+"${python}/bin/python ${src}/lendingbot.py $*"

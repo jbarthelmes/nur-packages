@@ -1,4 +1,2 @@
-{
-  papermc = ./papermc.nix;
-}
+{ papermc = ./papermc.nix; }
 
